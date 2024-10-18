@@ -1,0 +1,27 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "TEDxIndianaUniversity's UI collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-a11y": "^8.3.5",
+    "@storybook/addon-essentials": "^8.3.5",
+    "@storybook/addon-links": "^8.3.5",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
+    "@storybook/blocks": "^8.3.5",
+    "@storybook/test": "^8.3.5",
+    "@storybook/web-components": "^8.3.5",
+    "@storybook/web-components-webpack5": "^8.3.5",
+    "lit": "^3.2.1",
+    "storybook": "^8.3.5"
+  }
+}
