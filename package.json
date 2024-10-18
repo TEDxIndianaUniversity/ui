@@ -24,6 +24,7 @@
     "@storybook/test": "^8.3.5",
     "@storybook/web-components": "^8.3.5",
     "@storybook/web-components-webpack5": "^8.3.5",
+    "gh-pages": "^6.2.0",
     "lit": "^3.2.1",
     "storybook": "^8.3.5"
   }
