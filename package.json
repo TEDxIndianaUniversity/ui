@@ -1,12 +1,15 @@
 {
+  "homepage": "http://static.tedxiu.com/ui",
   "name": "ui",
   "version": "1.0.0",
   "description": "TEDxIndianaUniversity's UI collection",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "storybook dev -p 6006"
   },
   "keywords": [],
   "author": "",
