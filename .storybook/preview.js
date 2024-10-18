@@ -1,6 +1,7 @@
 /** @type { import('@storybook/web-components').Preview } */
 const preview = {
   parameters: {
+    layout: 'centered',
     controls: {
       matchers: {
         color: /(background|color)$/i,
