@@ -2,7 +2,7 @@ import * as HeaderStories from './Header.stories';
 import { Page } from './Page';
 
 export default {
-  title: 'Example/Page',
+  title: 'Anagram for Email/Page',
   render: (args) => Page(args),
 };
 
